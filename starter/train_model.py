@@ -54,8 +54,10 @@ def main():
             test, feature, model, encoder, lb, CAT_FEATURES)
         for feature in CAT_FEATURES
     ])
+    report = slices.to_string(index=False)
+    print(report)
     out = MODEL_DIR / "slice_output.txt"
-    out.write_text(slices.to_string(index=False) + "\n")
+    out.write_text(report + "\n")
     print(f"Slice metrics written to {out}")
 
 

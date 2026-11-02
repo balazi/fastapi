@@ -1,0 +1,100 @@
+       feature                 value  count  precision   recall    fbeta
+     workclass                     ?    389   0.772727 0.404762 0.531250
+     workclass           Federal-gov    191   0.753623 0.742857 0.748201
+     workclass             Local-gov    387   0.777778 0.700000 0.736842
+     workclass               Private   4578   0.787122 0.598402 0.679909
+     workclass          Self-emp-inc    212   0.776000 0.822034 0.798354
+     workclass      Self-emp-not-inc    498   0.724771 0.503185 0.593985
+     workclass             State-gov    254   0.731343 0.671233 0.700000
+     workclass           Without-pay      4   1.000000 1.000000 1.000000
+     education                  10th    183   1.000000 0.083333 0.153846
+     education                  11th    225   1.000000 0.272727 0.428571
+     education                  12th     98   1.000000 0.400000 0.571429
+     education               1st-4th     23   1.000000 1.000000 1.000000
+     education               5th-6th     62   1.000000 0.500000 0.666667
+     education               7th-8th    141   1.000000 0.000000 0.000000
+     education                   9th    115   1.000000 0.333333 0.500000
+     education            Assoc-acdm    198   0.777778 0.595745 0.674699
+     education             Assoc-voc    273   0.733333 0.523810 0.611111
+     education             Bachelors   1053   0.738683 0.797778 0.767094
+     education             Doctorate     77   0.839286 0.824561 0.831858
+     education               HS-grad   2085   0.830508 0.284058 0.423326
+     education               Masters    369   0.807339 0.850242 0.828235
+     education             Preschool     10   1.000000 1.000000 1.000000
+     education           Prof-school    116   0.827957 0.916667 0.870056
+     education          Some-college   1485   0.748691 0.516245 0.611111
+marital-status              Divorced    920   0.939394 0.300971 0.455882
+marital-status     Married-AF-spouse      4   1.000000 0.000000 0.000000
+marital-status    Married-civ-spouse   2950   0.763959 0.686170 0.722978
+marital-status Married-spouse-absent     96   1.000000 0.125000 0.222222
+marital-status         Never-married   2126   0.961538 0.242718 0.387597
+marital-status             Separated    209   1.000000 0.421053 0.592593
+marital-status               Widowed    208   1.000000 0.105263 0.190476
+    occupation                     ?    389   0.772727 0.404762 0.531250
+    occupation          Adm-clerical    726   0.672131 0.427083 0.522293
+    occupation          Armed-Forces      3   1.000000 1.000000 1.000000
+    occupation          Craft-repair    821   0.844156 0.359116 0.503876
+    occupation       Exec-managerial    838   0.794872 0.780856 0.787802
+    occupation       Farming-fishing    193   0.555556 0.178571 0.270270
+    occupation     Handlers-cleaners    273   0.500000 0.333333 0.400000
+    occupation     Machine-op-inspct    378   0.705882 0.255319 0.375000
+    occupation         Other-service    667   1.000000 0.153846 0.266667
+    occupation       Priv-house-serv     26   1.000000 1.000000 1.000000
+    occupation        Prof-specialty    828   0.782178 0.806122 0.793970
+    occupation       Protective-serv    136   0.769231 0.476190 0.588235
+    occupation                 Sales    729   0.748466 0.635417 0.687324
+    occupation          Tech-support    189   0.750000 0.647059 0.694737
+    occupation      Transport-moving    317   0.769231 0.312500 0.444444
+  relationship               Husband   2590   0.766098 0.691453 0.726864
+  relationship         Not-in-family   1702   0.945455 0.276596 0.427984
+  relationship        Other-relative    178   1.000000 0.375000 0.545455
+  relationship             Own-child   1019   1.000000 0.117647 0.210526
+  relationship             Unmarried    702   1.000000 0.244444 0.392857
+  relationship                  Wife    322   0.744000 0.650350 0.694030
+          race    Amer-Indian-Eskimo     71   0.833333 0.500000 0.625000
+          race    Asian-Pac-Islander    193   0.758621 0.709677 0.733333
+          race                 Black    599   0.720000 0.553846 0.626087
+          race                 Other     55   0.666667 0.666667 0.666667
+          race                 White   5595   0.778269 0.616947 0.688281
+           sex                Female   2126   0.771429 0.463519 0.579088
+           sex                  Male   4387   0.775180 0.644245 0.703673
+native-country                     ?    125   0.700000 0.677419 0.688525
+native-country              Cambodia      3   1.000000 0.000000 0.000000
+native-country                Canada     22   0.666667 0.750000 0.705882
+native-country                 China     18   0.875000 0.875000 0.875000
+native-country              Columbia      6   1.000000 1.000000 1.000000
+native-country                  Cuba     19   1.000000 0.800000 0.888889
+native-country    Dominican-Republic      8   1.000000 1.000000 1.000000
+native-country               Ecuador      5   1.000000 0.500000 0.666667
+native-country           El-Salvador     20   1.000000 1.000000 1.000000
+native-country               England     14   0.750000 0.750000 0.750000
+native-country                France      5   1.000000 1.000000 1.000000
+native-country               Germany     32   0.818182 0.692308 0.750000
+native-country                Greece      7   1.000000 0.500000 0.666667
+native-country             Guatemala     13   1.000000 1.000000 1.000000
+native-country                 Haiti      6   1.000000 1.000000 1.000000
+native-country              Honduras      4   1.000000 1.000000 1.000000
+native-country                  Hong      8   0.500000 1.000000 0.666667
+native-country               Hungary      3   1.000000 0.500000 0.666667
+native-country                 India     21   0.700000 0.875000 0.777778
+native-country                  Iran     12   0.500000 0.400000 0.444444
+native-country               Ireland      5   1.000000 1.000000 1.000000
+native-country                 Italy     14   0.750000 0.750000 0.750000
+native-country               Jamaica     13   0.000000 1.000000 0.000000
+native-country                 Japan     11   0.750000 0.750000 0.750000
+native-country                  Laos      4   1.000000 0.000000 0.000000
+native-country                Mexico    114   1.000000 0.333333 0.500000
+native-country             Nicaragua      7   1.000000 1.000000 1.000000
+native-country                  Peru      5   1.000000 0.000000 0.000000
+native-country           Philippines     35   1.000000 0.687500 0.814815
+native-country                Poland     14   0.333333 0.500000 0.400000
+native-country              Portugal      6   1.000000 1.000000 1.000000
+native-country           Puerto-Rico     22   0.833333 0.833333 0.833333
+native-country              Scotland      3   1.000000 1.000000 1.000000
+native-country                 South     13   0.250000 0.500000 0.333333
+native-country                Taiwan     11   0.800000 1.000000 0.888889
+native-country              Thailand      5   1.000000 1.000000 1.000000
+native-country       Trinadad&Tobago      3   1.000000 1.000000 1.000000
+native-country         United-States   5870   0.777778 0.609756 0.683594
+native-country               Vietnam      5   1.000000 1.000000 1.000000
+native-country            Yugoslavia      2   1.000000 1.000000 1.000000

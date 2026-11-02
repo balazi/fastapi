@@ -1,3 +1,12 @@
+# Census Income Prediction API
+
+Random forest model on the UCI Census Income data, served with FastAPI. `GET /` returns a welcome message and `POST /predict` returns `<=50K` or `>50K`.
+
+- Live API: https://fastapi-16n5.onrender.com (docs at `/docs`)
+- Train: `python -m starter.train_model`; test: `flake8 . && pytest` (developed with Python 3.11)
+- Query the live API: `python live_post.py`
+- CI runs flake8 and pytest on pushes to `main`/`master`; a deploy job then triggers Render using the `RENDER_DEPLOY_HOOK_URL` secret.
+
 Working in a command line environment is recommended for ease of use with git and dvc. If on Windows, WSL1 or 2 is recommended.
 
 The repository root is the project root. Run installation, tests, DVC, and deployment commands from here. `requirements.txt`, `setup.py`, `main.py`, `sanitycheck.py`, and `data/census.csv` are at the root. `starter/` contains the Python package; for example, import `process_data` with `from starter.ml.data import process_data`.

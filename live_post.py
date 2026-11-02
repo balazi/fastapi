@@ -4,7 +4,7 @@ import os
 import requests
 
 URL = os.environ.get(
-    "API_URL", "https://census-income-api.onrender.com") + "/predict"
+    "API_URL", "https://fastapi-16n5.onrender.com") + "/predict"
 
 SAMPLE = {
     "age": 52, "workclass": "Self-emp-not-inc", "fnlgt": 209642,
